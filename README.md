@@ -1,6 +1,9 @@
 # Temesgen_Portfolio
 Data Science Portfolio
 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="temesgen-tewolde" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://qa.linkedin.com/in/temesgen-tewolde?trk=profile-badge">Temesgen Tewolde</a></div>
+              
+
 # [Project 1: LinkedIn Web Scraper](https://github.com/codeteme/LinkedInDemoResearch)
 
 Using LinkedIn Campaign Manager audience count data to pursue social science research.
