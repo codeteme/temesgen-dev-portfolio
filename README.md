@@ -42,3 +42,14 @@ Book sale records are not publicly available. There are companies that have the 
 
 
 ![](/images/pexels-guilherme-rossi-2553424.jpg)
+
+## [Project 3: Vaccine Hesitancy](https://github.com/codeteme/130422-V2)
+
+
+Religious Correlates in Covid-19 Vaccine Hesitancy: Does religion influence vaccine uptake of the US population? 
+
+
+Quantitative and qualitative exploration is required to better comprehend the demographics of groups with the most hesitant individuals and utilize different approaches that cater to these groups with different ideologies. This study explores essential factors that determine individuals’ behaviors towards COVID-19 vaccines. Particularly, we evaluate the difference in vaccination uptake among followers of a religion and non-followers. Additionally, we examine the variance among three popular religious groups - Islam, Christianity, and Judaism - in the US.  Identification of the salient factors would be an important insight health communicators and policymakers can use to develop public health communication campaigns and pass vaccine mandate policies, respectively.  
+
+![](/images/pexels-tara-winstead-7722844.jpg)
+
