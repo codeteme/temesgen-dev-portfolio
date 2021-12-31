@@ -32,3 +32,13 @@ Algorithmic Plan: I will employ alpha-beta pruning to allow a user to play again
 
 ![](/images/index.jpg)
 
+## [Project 3: Book Sale Prediction](https://github.com/codeteme/goodreads_sales_prediction)
+
+Machine Learning has been used widely to make predictions of consumer products, especially music and movies. However, it has not been widely used to make book related predictions, even though books are widely sold consumer products. In this notebook, we make use of machine learning to predict book sales using several book attributes. We believe this model can be useful for many including publishers, authors, and book shops.
+
+In our literature review, we came across two papers that examined other aspects of the whole book ecosystem i.e. users and reviewers. Both papers made use of Goodreads, the most popular book review platform. We also chose the website because of the sheer number of books it tracks and are discussed. Getting the data, however, was a very challenging task and might also explain lack of interest in building book related models. Goodreads officially retired its API service two years ago, so we had to resort to scraping the page in a very inconvenient way. Fortunately, we succeeded.
+
+Book sale records are not publicly available. There are companies that have the data but they sell it at very high prices. In this project, we want to develop proxy items that can indicate the true book sale record of books in the English language so further researchers can use these proxies. Additionally, we would touch on almost every topic covered in the course, including web scraping, data cleaning, data visualization, data analysis, data modeling, NLP and so on.
+
+
+![](/images/pexels-guilherme-rossi-2553424.jpg)
