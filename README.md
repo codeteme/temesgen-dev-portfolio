@@ -5,7 +5,7 @@ Data Science Portfolio
               
 
 # [Project 1: LinkedIn Web Scraper](https://github.com/codeteme/LinkedInDemoResearch)
-
+#### Tags: *Statistical Analysis* , *Web Scraping*
 Using LinkedIn Campaign Manager audience count data to pursue social science research.
 
 Users can specify the attributes for the following variables:
@@ -25,14 +25,16 @@ Users can also append multiple boolean arguments. The following three are suppor
 ![](/images/index.png)
 
 # [Project 2: Gebeta](https://github.com/codeteme/Gebeta)
+#### Tags: *Graphical UI*, *Imperative Computing*
 
-Gebeta is one of the oldest board games in the world. The project will allow two users to play against each other in a single account. The project will allow a user to play against the computer. The project might also allow the users to play in multiplayer mode.
+Gebeta is one of the oldest board games in the world. The project allows two users to play against each other in a single account. The project allows a user to play against the computer. The project might will be extended to allow multiplayer mode.
 
-Algorithmic Plan: I will employ alpha-beta pruning to allow a user to play against the computer. The static evaluation on the final positions would look at the number of marbles in the big bucket. In other words, the greater the number of marbles, the better the move is for the chosen player. If the number of marbles in the opposition's big bucket is larger than the chosen player's, then the static evaluation will yield a negative result (marbles in the big bucket of chosen player - marbles in big bucket of opposition player)
+Algorithmic Plan: I used alpha-beta pruning to allow a user to play against the computer. The static evaluation on the final positions looks at the number of marbles in the big bucket. In other words, the greater the number of marbles, the better the move is for the chosen player. If the number of marbles in the opposition's big bucket is larger than the chosen player's, then the static evaluation will yield a negative result (marbles in the big bucket of chosen player - marbles in big bucket of opposition player)
 
 ![](/images/index.jpg)
 
 ## [Project 3: Book Sale Prediction](https://github.com/codeteme/goodreads_sales_prediction)
+#### Tags: *Deep Learning*, *Natural Language Processing*, *Web Scraping*
 
 Machine Learning has been used widely to make predictions of consumer products, especially music and movies. However, it has not been widely used to make book related predictions, even though books are widely sold consumer products. In this notebook, we make use of machine learning to predict book sales using several book attributes. We believe this model can be useful for many including publishers, authors, and book shops.
 
@@ -44,6 +46,7 @@ Book sale records are not publicly available. There are companies that have the 
 ![](/images/pexels-guilherme-rossi-2553424.jpg)
 
 ## [Project 4: Vaccine Hesitancy](https://github.com/codeteme/130422-V2)
+#### Tags: *Statistical Analysis* 
 
 
 Religious Correlates in Covid-19 Vaccine Hesitancy: Does religion influence vaccine uptake of the US population? 
@@ -54,6 +57,7 @@ Quantitative and qualitative exploration is required to better comprehend the de
 ![](/images/pexels-tara-winstead-7722844.jpg)
 
 ## [Project 5: Google Scholar Scraper](https://github.com/codeteme/google_scholar_scraper)
+#### Tags: *Natural Language Processing*, *Statistical Analysis*, *Web Scraping*
 
 This project is intended for academics planning to collect all relevant search engine result pages. Users can use the simple webpage to put in parameters such as keywords (both optional and must-contain), year range to search, and language. The python script would then iteratively run these queries and collect the returned articles features such as title, auhor name, publicatio, info, year published.
 
