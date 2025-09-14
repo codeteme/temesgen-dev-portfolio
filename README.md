@@ -1,4 +1,4 @@
-# Temesgen_Portfolio
+# Temesgen Portfolio
 Data Science Portfolio
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="temesgen-tewolde" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://qa.linkedin.com/in/temesgen-tewolde?trk=profile-badge">Temesgen Tewolde</a></div>
