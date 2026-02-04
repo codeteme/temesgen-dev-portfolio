@@ -62,20 +62,32 @@ This project develops an automated methodology for "Digital Census" research by 
 
 ---
 
-## [Project 5: Gebeta](https://github.com/codeteme/Gebeta)
-#### Tags: *Graphical UI*, *Imperative Computing*
 
-Gebeta is one of the oldest board games in the world. The project allows two users to play against each other in a single account. The project allows a user to play against the computer. The project might will be extended to allow multiplayer mode.
+## [Project 5: Gebeta (Mancala)](https://github.com/codeteme/Gebeta)
+#### Tags: *Artificial Intelligence*, *Python*, *Algorithms*
 
-Algorithmic Plan: I used alpha-beta pruning to allow a user to play against the computer. The static evaluation on the final positions looks at the number of marbles in the big bucket. In other words, the greater the number of marbles, the better the move is for the chosen player. If the number of marbles in the opposition's big bucket is larger than the chosen player's, then the static evaluation will yield a negative result (marbles in the big bucket of chosen player - marbles in big bucket of opposition player).
+Gebeta (also known as Mancala) is one of the world's oldest strategy board games. This project is a digital implementation featuring a functional Graphical User Interface (GUI) and an intelligent AI opponent.
+
+* **AI Implementation**: Features a decision-making engine powered by the **Minimax Algorithm with Alpha-Beta Pruning**, allowing the computer to anticipate moves and optimize gameplay.
+* **Heuristic Evaluation**: The AI utilizes a static evaluation function that calculates the score differential between players' "big buckets" to determine the most advantageous move in any given state.
+* **Game Logic**: Implements complex game rules, including the "sowing" of marbles, capturing mechanics, and bonus turns, all managed through an imperative computing framework.
+* **User Experience**: Supports both local 1v1 multiplayer and single-player modes against the computer with a responsive interface built for smooth turn transitions.
+
+
 
 <img src="/images/index.jpg" width="400" height="400">
 
 ---
 
-## [Project 6: Vaccine Hesitancy](https://github.com/codeteme/130422-V2)
-#### Tags: *Statistical Analysis* Religious Correlates in Covid-19 Vaccine Hesitancy: Does religion influence vaccine uptake of the US population?
+## [Project 6: Vaccine Hesitancy - Religious Correlates](https://github.com/codeteme/130422-V2)
+#### Tags: *Statistical Analysis*, *Public Health*, *Computational Social Science*
 
-Quantitative and qualitative exploration is required to better comprehend the demographics of groups with the most hesitant individuals and utilize different approaches that cater to these groups with different ideologies. This study explores essential factors that determine individuals’ behaviors towards COVID-19 vaccines. Particularly, we evaluate the difference in vaccination uptake among followers of a religion and non-followers. Additionally, we examine the variance among three popular religious groups - Islam, Christianity, and Judaism - in the US. Identification of the salient factors would be an important insight health communicators and policymakers can use to develop public health communication campaigns and pass vaccine mandate policies, respectively.
+This study investigates the influence of religious affiliation on COVID-19 vaccine uptake in the United States, utilizing quantitative methods to identify salient factors in public health behavior.
+
+* **Comparative Analysis**: Evaluates the variance in vaccination rates between religious followers and non-followers, with a specific focus on Islam, Christianity, and Judaism.
+* **Quantitative Exploration**: Employs statistical techniques to comprehend the demographics of hesitant groups and the ideologies driving their health decisions.
+* **Policy Insights**: Provides data-driven conclusions intended for health communicators and policymakers to develop targeted communication campaigns and mandate policies.
+* **Methodological Rigor**: Combines cross-sectional data analysis with a qualitative understanding of religious doctrines to provide a holistic view of vaccine sentiment.
+
 
 <img src="/images/pexels-tara-winstead-7722844.jpg" width="400" height="400">
