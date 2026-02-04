@@ -48,24 +48,16 @@ Addis Order is a comprehensive restaurant management system tailored for busines
 
 ---
 
-## [Project 4: LinkedIn Web Scraper](https://github.com/codeteme/LinkedInDemoResearch)
-#### Tags: *Statistical Analysis* , *Web Scraping*
-Using LinkedIn Campaign Manager audience count data to pursue social science research.
+## [Project 4: LinkedIn Demographic Research Tool](https://github.com/codeteme/LinkedInDemoResearch)
+#### Tags: *Computational Social Science*, *Automation*, *API Integration*
 
-Users can specify the attributes for the following variables:
+This project develops an automated methodology for "Digital Census" research by leveraging the LinkedIn Campaign Manager API to retrieve aggregate audience counts for specific demographic segments.
 
-* Interface locale (required)
-* Location (required)
-* Gender
-* Age range
-* Job seniority
+* **Demographic Extraction**: Programmatically queries LinkedIn’s advertising platform to gather population estimates based on locale, geography, gender, age, and professional seniority.
+* **Complex Boolean Logic**: Implements a robust query builder supporting nested **AND**, **OR**, and **NOT** operators, allowing researchers to define high-granularity target audiences.
+* **Automated Data Collection**: Bypasses the manual effort of the Campaign Manager UI by using Python scripts to iteratively fetch and structure data for large-scale statistical analysis.
+* **Research Application**: Provides a scalable way to study professional demographics and workforce trends across different global regions without the need for traditional survey-based sampling.
 
-Users can also append multiple boolean arguments. The following three are supported:
-
-* OR
-* AND
-* NOT
-    
 <img src="/images/index.png" width="400" height="400">
 
 ---
