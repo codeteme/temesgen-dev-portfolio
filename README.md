@@ -33,12 +33,18 @@ This project ingests live arrival data from Transport for London (TfL) using a m
 
 ---
 
-## [Project 3: Google Scholar Scraper](https://github.com/codeteme/google_scholar_scraper)
-#### Tags: *Natural Language Processing*, *Statistical Analysis*, *Web Scraping*
+## [Project 3: Addis Order - Restaurant Management System](https://github.com/codeteme/addis-order)
+#### Tags: *Full-Stack Development*, *Database Management*, *Product Engineering*
 
-This project is intended for academics planning to collect all relevant search engine result pages. Users can use the simple webpage to put in parameters such as keywords (both optional and must-contain), year range to search, and language. The python script would then iteratively run these queries and collect the returned articles features such as title, auhor name, publicatio, info, year published.
+Addis Order is a comprehensive restaurant management system tailored for businesses with meat-based menus. It bridges the gap between front-of-house waitstaff and back-of-house butchers and kitchen staff through real-time order and inventory synchronization.
 
-<img src="/images/pexels-guilherme-rossi-2553424.jpg" width="400" height="400">
+* **Order & Menu Management**: Streamlined CRUD operations for orders and menu items with automatic total calculations and status tracking (active vs. completed).
+* **Inventory Tracking**: Sophisticated system to monitor stock quantities, reorder levels, and expiration dates, associated with specific suppliers.
+* **Modern UI/UX**: Built with **Bootstrap 5** and **Jinja2 templates**, featuring dynamic table sorting and a responsive design for various devices.
+* **Tech Stack**: Powered by a **Flask (Python)** backend and a **PostgreSQL** database, managed with **Docker** and deployed via **Render**.
+
+<img src="/images/restaurant_management.jpg" width="400" height="400">
+
 
 ---
 
