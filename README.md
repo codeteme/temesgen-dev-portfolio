@@ -5,14 +5,15 @@ Data Science Portfolio
 
 ---
 
-## [Project 1: Book Sale Prediction](https://github.com/codeteme/goodreads_sales_prediction)
+## [Project 1: Goodreads Book Sale Prediction](https://github.com/codeteme/goodreads-ml-model)
 #### Tags: *Deep Learning*, *Natural Language Processing*, *Web Scraping*
 
-Machine Learning has been used widely to make predictions of consumer products, especially music and movies. However, it has not been widely used to make book related predictions, even though books are widely sold consumer products. In this notebook, we make use of machine learning to predict book sales using several book attributes. We believe this model can be useful for many including publishers, authors, and book shops.
+This project applies machine learning to the publishing industry by predicting book sales through proxy metrics and metadata analysis, addressing the lack of publicly available sales data.
 
-In our literature review, we came across two papers that examined other aspects of the whole book ecosystem i.e. users and reviewers. Both papers made use of Goodreads, the most popular book review platform. We also chose the website because of the sheer number of books it tracks and are discussed. Getting the data, however, was a very challenging task and might also explain lack of interest in building book related models. Goodreads officially retired its API service two years ago, so we had to resort to scraping the page in a very inconvenient way. Fortunately, we succeeded.
-
-Book sale records are not publicly available. There are companies that have the data but they sell it at very high prices. In this project, we want to develop proxy items that can indicate the true book sale record of books in the English language so further researchers can use these proxies. Additionally, we would touch on almost every topic covered in the course, including web scraping, data cleaning, data visualization, data analysis, data modeling, NLP and so on.
+* **Custom Data Pipeline**: Engineered a robust web scraping solution to collect data from Goodreads following the retirement of their official API, capturing a diverse dataset of book attributes and user reviews.
+* **Predictive Modeling**: Developed and trained **Deep Learning** models to forecast sales potential, serving as a tool for publishers and authors to evaluate market viability.
+* **NLP & Sentiment Analysis**: Utilized Natural Language Processing to extract features from reader reviews and book descriptions, converting unstructured text into predictive signals.
+* **End-to-End Lifecycle**: Managed the complete data science workflow, including advanced data cleaning, exploratory data analysis (EDA), feature engineering, and model evaluation.
 
 <img src="/images/pexels-olenka-sergienko-3646172.jpg" width="400" height="400">
 
