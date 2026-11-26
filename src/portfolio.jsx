@@ -5,7 +5,7 @@ const Portfolio = () => {
   // Portfolio data: edit this block to update the site.
   const data = {
     name: "Temesgen Tewolde",
-    title: "Data Scientist · LLM Evaluation & Clinical NLP",
+    title: "AI Engineer · Data Scientist",
     email: "teme.tewolde@gmail.com",
     github: "https://github.com/codeteme",
     linkedin: "https://www.linkedin.com/in/temesgen-tewolde",
@@ -13,9 +13,16 @@ const Portfolio = () => {
     researchgate: "https://www.researchgate.net/profile/Temesgen-Tewolde",
     resume: "/Temesgen_Tewolde_Resume.pdf",
 
-    bio: "I build and evaluate large language model systems for healthcare, with a focus on whether a model's output and reasoning can be trusted. M.S. Data Science student at Duke University (4.0 GPA). Previously an AI/ML intern at Mayo Clinic Radiation Oncology.",
+    bio: "I build applied AI and ML systems end to end: LLM applications and agents, predictive and causal models, and the data pipelines and APIs that put them into production. M.S. Data Science student at Duke University (4.0 GPA). Previously an AI/ML intern at Mayo Clinic Radiation Oncology, where I built LLM systems for clinical documentation.",
 
-    availability: "Open to full-time roles starting July 2027 (graduating May 2027). Based in Durham, NC, and open to relocating.",
+    availability: "Open to full-time AI engineer, ML engineer, and data scientist roles starting July 2027 (graduating May 2027). Based in Durham, NC, and open to relocating.",
+
+    focus: [
+      { area: "AI engineering", detail: "LLM applications, agents, RAG, structured extraction, and evaluation, shipped with FastAPI and React." },
+      { area: "Machine learning", detail: "Deep learning, computer vision, and model interpretability." },
+      { area: "Data science", detail: "Predictive and survival models, causal inference, and statistical analysis." },
+      { area: "Data engineering", detail: "Streaming and batch pipelines with Kafka, Spark, Airflow, and BigQuery." }
+    ],
 
     experience: [
       {
@@ -60,21 +67,39 @@ const Portfolio = () => {
 
     projects: [
       {
-        title: "MedLens: Does a Medical LLM's Reasoning Report What Changed Its Answer?",
-        description: "Planted hints in 375 MedQA questions for MedGemma 4B. A hint changed the answer in 912 runs, and the written reasoning mentioned it in only 3.3%. Traced the hint with Gemma Scope 2 sparse autoencoders and confirmed it by switching features off; a probe on layer-22 activations flagged silent hint-following with AUROC 0.98, vs. 0.56–0.72 for text-only detectors. Pre-registered fixes and the prompt-injection link were reported as negative results.",
-        tech: ["PyTorch", "Gemma Scope 2 / SAELens", "vLLM on TPU", "Interpretability", "pytest"],
-        github: "https://github.com/codeteme/medlens-honesty"
-      },
-      {
         title: "Ambient Clinical Documentation (Mayo Clinic)",
-        description: "Full-stack system built with radiation oncologists that listens to clinic visits and outputs CTCAE-graded adverse events. Agreement with clinician labels reached kappa above 0.8, against a clinician-to-clinician baseline of about 0.6. Internal project; code not public.",
-        tech: ["Gemini", "FastAPI", "React", "LLM Evaluation"]
+        description: "Full-stack LLM system built with radiation oncologists that listens to clinic visits and outputs CTCAE-graded adverse events. Agreement with clinician labels reached kappa above 0.8, against a clinician-to-clinician baseline of about 0.6. Internal project; code not public.",
+        tech: ["Gemini", "FastAPI", "React", "Speech-to-Text", "Evaluation"]
       },
       {
         title: "AI Code Quality Assistant",
         description: "Four LLM agents (style, idioms, clean code, testing) each run a scan, suggest, apply, validate loop with retries, plus an agentic mode where the LLM decides which tools to call. The testing agent retrieves similar test files from ChromaDB (RAG) so generated tests match the codebase. Available as a CLI, a Dockerized REST API, and a VS Code extension.",
         tech: ["Python", "LLM Agents", "RAG", "ChromaDB", "Docker", "pytest"],
         github: "https://github.com/codeteme/multi-agent-code-assistant"
+      },
+      {
+        title: "ICU Mortality Clinical Decision Support",
+        description: "Clinical decision support engine that predicts ICU mortality with survival analysis models on MIMIC-IV electronic health record data.",
+        tech: ["R", "Survival Analysis", "MIMIC-IV", "EHR Data"],
+        github: "https://github.com/codeteme/clinical-decision-support-engine"
+      },
+      {
+        title: "MedLens: Hidden Hint-Following in a Medical LLM",
+        description: "Tested whether MedGemma 4B's written reasoning reports what changed its answer across 375 MedQA questions: a planted hint changed 912 answers and was mentioned in only 3.3%. A probe on the model's internal activations flagged silent hint-following with AUROC 0.98, vs. 0.56–0.72 for text-only detectors.",
+        tech: ["PyTorch", "Gemma Scope 2", "vLLM on TPU", "Interpretability"],
+        github: "https://github.com/codeteme/medlens-honesty"
+      },
+      {
+        title: "Dashcam Collision Risk Prediction",
+        description: "Predicts collision risk from dashcam video by combining video, depth, and object detection models.",
+        tech: ["PyTorch", "VideoMAE", "DepthAnything", "YOLO", "Computer Vision"],
+        github: "https://github.com/codeteme/detect-to-protect"
+      },
+      {
+        title: "Prison Education and Recidivism",
+        description: "Difference-in-differences study of the 2016 Second Chance Pell expansion and two-year recidivism, using individual-level prison release data across 34 states (2005–2018), with a policy memo.",
+        tech: ["Causal Inference", "Difference-in-Differences", "Python", "Statistics"],
+        github: "https://github.com/codeteme/prison-education-recidivism"
       },
       {
         title: "SCOPE-TRA: LLM-Based Profiling of Online Communities",
@@ -129,10 +154,11 @@ const Portfolio = () => {
     ],
 
     skills: {
-      "LLMs & NLP": ["OpenAI API", "Gemini", "LangChain", "RAG", "Prompt Engineering", "Structured Extraction", "LLM Evaluation", "LLM-as-Judge", "spaCy"],
-      "ML & Interpretability": ["PyTorch", "Hugging Face Transformers", "SAELens", "vLLM", "scikit-learn", "XGBoost", "MLflow"],
-      "Engineering & Data": ["Python", "SQL", "R", "JavaScript", "FastAPI", "React", "Docker", "pytest", "Git"],
-      "Cloud & Pipelines": ["GCP", "BigQuery", "AWS (S3)", "PySpark", "Airflow", "Kafka", "HPC (SLURM)"]
+      "Languages": ["Python", "SQL", "R", "TypeScript/JavaScript", "Bash"],
+      "AI & LLMs": ["OpenAI API", "Gemini", "LangChain", "RAG", "Agents", "Structured Extraction", "Prompt Engineering", "Evaluation", "spaCy"],
+      "Machine Learning": ["PyTorch", "Hugging Face Transformers", "scikit-learn", "XGBoost", "MLflow", "vLLM", "Computer Vision"],
+      "Data & Statistics": ["Pandas", "Survival Analysis", "Causal Inference", "BigQuery", "PySpark", "Airflow", "Kafka"],
+      "Backend & Cloud": ["FastAPI", "React", "Docker", "PostgreSQL", "pytest", "Git", "GCP", "AWS (S3)", "HPC (SLURM)"]
     },
 
     education: [
@@ -183,6 +209,14 @@ const Portfolio = () => {
           <p className="mb-8 text-sm text-indigo-700 font-medium max-w-2xl">
             {data.availability}
           </p>
+          <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
+            {data.focus.map((f, i) => (
+              <div key={i} className="border-l-4 border-indigo-600 pl-4">
+                <div className="font-semibold text-gray-900">{f.area}</div>
+                <div className="text-sm text-gray-700">{f.detail}</div>
+              </div>
+            ))}
+          </div>
           <div className="flex flex-wrap gap-x-6 gap-y-3">
             <a href={data.resume} target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-2 text-sm font-medium px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
